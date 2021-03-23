@@ -16,9 +16,7 @@ public class Bai13 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String str1 = "Chào mừng các bạn đến với Freetuts.net";
-        System.out.println("Chuỗi sau khi thay thế: "+str1.replace("Chào mừng", "Welcome")); 
-   
+        
     }
     
 }
