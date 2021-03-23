@@ -6,6 +6,7 @@
 package lab2thjava;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
@@ -34,14 +35,17 @@ public class Bai10 {
         pw.print("Copyright by Duong Thanh Phet - ");
         pw.println(2015);
         pw.print("htpp://thayphet.net");
+        pw.close();
         System.out.println("Da ghi file xong");
         //doc file
         Scanner inp = new Scanner(f);
         while(inp.hasNext()){
             String ten = inp.next();
             System.out.print(ten +" ");
-            int maso = inp.nextInt();
+            String maso = inp.nextLine();
             System.out.println(maso);
+            String link = inp.next();
+            System.out.print(link +" ");
         }
     }
     

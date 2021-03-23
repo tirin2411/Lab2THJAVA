@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lab2thjava;
+package com.mycompany.mavenlab2;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.FileReader;
 
 /**
  *
@@ -51,8 +51,9 @@ public class Bai13 {
         }
     }
     public static void main(String[] args) {
-        modifyFile("D:\\HocKy2N4\\ThucHanhJava\\Lab2\\Lab2THJava\\text.txt", "OldString", "NewString");
+        modifyFile("D:\\HocKy2N4\\ThucHanhJava\\Lab2\\mavenLab2\\text.txt", "OldString", "NewString");
         System.out.println("done");
     }
+    
     
 }

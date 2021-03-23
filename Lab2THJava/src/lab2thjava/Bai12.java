@@ -46,7 +46,7 @@ public class Bai12 {
                 byte ibuf[]=new byte[ibyts];
                 int byrd = is.read(ibuf,0,ibyts);
                 StringTokenizer strToken= new StringTokenizer(new String(ibuf)," ,\t,\r");
-                System.out.println("Chuoi ky tu la: "+new String(ibuf));
+                System.out.println("Chuoi so nguyen la: "+new String(ibuf));
 
         }
     }
